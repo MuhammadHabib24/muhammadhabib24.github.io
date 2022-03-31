@@ -14,6 +14,28 @@ body {
   overflow: hidden;
 }
 
+h2 {
+  font-size: 20px;
+  color: #0e3742;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+  animation: animate 4s linear infinite;
+  border-radius: 20px;
+}
+
+@keyframes animate {
+  0%
+  {
+    color: #0e3742;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  }
+}
+
 .container {
   overflow: hidden;
   top: 50%;
@@ -24,13 +46,13 @@ body {
   background: #0c101c;
   text-align: center;
   border-radius: 25px;
-  box-shadow: 10px 10px 5px rgb(59, 59, 59);
+  box-shadow: 10px 10px 5px #202b31;
 }
 
 input {
   height: 80px;
   width: 270px;
-  background: #0c101c;
+  background: #202b31;
   color: #fff;
   border-radius: 20px;
   text-align: end;
